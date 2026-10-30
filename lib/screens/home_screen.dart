@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
         Container(color: AppColors.dark.withOpacity(.38)),
         Padding(padding: const EdgeInsets.all(22), child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisAlignment: MainAxisAlignment.end, children: [
           Text('FRESHLY BAKED', style: AppTextStyles.label.copyWith(color: AppColors.cream, letterSpacing: 2)),
-          const SizedBox(height: 8), const Text('A little joy\nin every layer.', style: AppTextStyles.display.copyWith(fontSize: 31)),
+          const SizedBox(height: 8), Text('A little joy\nin every layer.', style: AppTextStyles.display.copyWith(fontSize: 31)),
           const SizedBox(height: 13), OutlinedButton(onPressed: onMenu, style: OutlinedButton.styleFrom(foregroundColor: AppColors.cream, side: const BorderSide(color: AppColors.cream)), child: const Text('EXPLORE MENU')),
         ])),
       ]))))),
